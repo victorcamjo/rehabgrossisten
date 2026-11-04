@@ -1,0 +1,5 @@
+{
+    "require": {
+        "posthog/posthog-php": "3.0.*"
+    }
+}

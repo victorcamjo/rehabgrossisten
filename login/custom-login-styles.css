@@ -1,0 +1,55 @@
+body.login {
+    background-image: url("//rehabgrossisten.com/wp-content/uploads/2017/05/Toppbanner2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.login h1 a {
+    background-image: url('rehabgrossisten.png');
+}
+
+.login label {
+    font-size: 12px;
+    color: #555555;
+}
+
+.login input[type="text"]{
+    background-color: #ffffff;
+    border-color:#dddddd;
+    -webkit-border-radius: 4px;
+}
+
+.login input[type="password"]{
+    background-color: #ffffff;
+    border-color:#dddddd;
+    -webkit-border-radius: 4px;
+}
+
+.login .button-primary {
+    width: 120px;
+    float:right;
+    background-color:#A0CE4E !important;
+    color: #ffffff;
+    -webkit-border-radius: 4px;
+    border: 0;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.login .button-primary:hover {
+    background-color:#8db544 !important;
+    color: #fff;
+    -webkit-border-radius: 4px;
+}
+
+.login .button-primary:active {
+    background-color:#8db544 !important;
+    color: #fff;
+    -webkit-border-radius: 4px;
+}
+
+p#nav, p#backtoblog, .privacy-policy-page-link {
+    display: none;
+}
