@@ -27,6 +27,9 @@ endif;
 if (@include get_stylesheet_directory() . '/config/product-sorting.php') :
     include_once get_stylesheet_directory() . '/config/product-sorting.php';
 endif;
+if (@include get_stylesheet_directory() . '/config/mailchimp.php') :
+    include_once get_stylesheet_directory() . '/config/mailchimp.php';
+endif;
 /*
 if (@include get_stylesheet_directory() . '/config/product-category.php') :
     include_once get_stylesheet_directory() . '/config/product-category.php';
